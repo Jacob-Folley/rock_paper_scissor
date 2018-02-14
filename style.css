@@ -1,0 +1,156 @@
+header {
+  background-color: white;
+  margin: 0;
+  height: 75px;
+}
+body {
+  background-color: white;
+}
+
+.Title {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  margin: 0;
+  top: 100px;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 3px;
+}
+
+.main {
+display: grid;
+grid-template-columns: 40% 20% 40%;
+grid-template-areas: "left middle right";
+}
+
+#left {
+  display: inline-block;
+  grid-area: left;
+  background-color: white;
+}
+
+#middle {
+  display: inline-block;
+  grid-area: middle;
+  background-color: white;
+}
+
+#right {
+  display: inline-block;
+  grid-area: right;
+  background-color: white;
+}
+
+#cpHead {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+}
+
+#rock {
+  background-image: url(rock.png);
+  background-size: 280px 190px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: 10% auto 10% 30%;
+}
+
+#paper {
+  background-image: url(paper.png);
+  background-size: 280px 190px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: 10% auto 10% 30%;
+}
+
+#scissor {
+  background-image: url(scissor.png);
+  background-size: 280px 190px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: 10% auto 10% 30%;
+}
+
+
+#comp {
+  display: block;
+  height: 20%;
+  text-align: center;
+  margin-top: 65%;
+  font-family: 'Indie Flower', cursive;
+  color: #00FFFF;
+  font-size: 40px;
+}
+
+#compPoint{
+  font-size: 50px;
+  margin: 0;
+  margin-top: -10%;
+}
+
+#playerPoint {
+  font-size: 50px;
+  margin: 0;
+  margin-top: -10%;
+}
+
+
+#player {
+  display: block;
+  height: 10%;
+  text-align: center;
+  margin-top: 25%;
+  font-family: 'Indie Flower', cursive;
+  color: #7FFF00;
+  font-size: 40px;
+}
+
+#rockComp {
+  background-image: url(rock.png);
+  background-size: 280px 190px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: 10% auto 10% 30%;
+}
+
+#paperComp {
+  background-image: url(paper.png);
+  background-size: 280px 190px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: 10% auto 10% 30%;
+}
+
+#scissorComp {
+  background-image: url(scissor.png);
+  background-size: 280px 190px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: 10% auto 10% 30%;
+}
